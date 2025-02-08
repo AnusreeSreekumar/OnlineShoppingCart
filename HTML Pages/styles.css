@@ -1,0 +1,65 @@
+
+.logo {
+  height: 40px; /* Adjust size */
+  width: auto;
+}
+
+.website-name {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: 'Sofia', cursive;
+  font-style: italic;
+  color:rgb(0, 77, 64)
+}
+
+.website-name:hover{
+  font-weight: bold;
+  color:rgb(3, 56, 47)
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding: 8px 15px; /* Adjust spacing */
+}
+
+.nav-link{
+  color: rgb(192, 121, 121)
+}
+
+.nav-link:hover{
+  font-weight: bold;
+  color: rgb(183, 110, 121)
+}
+
+body{
+  background-color:rgba(214, 152, 131, 0.897)
+}
+
+.container{
+  border: 10px ridge;
+  /* border-width: 5px; */
+  width: 1000px;
+  height: 550px;
+  margin-top: 40px;
+}
+
+.container h3{
+  height: 50px;
+  background-color:#ee718e;
+  text-align: center;
+  padding: 2px;
+  color:#FFF8E7;
+}
+
+.form-inline{
+  align-self: center;
+}
+
+.form-inline label{
+  margin-top: 50px;
+}
+
+.form-control{
+  margin-top: 20px;
+  width: 550px;
+}
