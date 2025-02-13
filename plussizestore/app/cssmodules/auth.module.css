@@ -1,0 +1,33 @@
+.pageContainer{
+    background: url('/backgrndimages/bkgrnd/Forms\ .jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width: 1000px;
+    height: 550px;
+    margin-top:290px;
+  }
+  
+  .container h3{
+    height: 50px;
+    margin-left: 130px;
+    padding: 2px;
+    color:rgb(183, 110, 121)
+  }
+
+  .formlabel{
+    color:rgb(183, 110, 121);
+    font-weight:800;
+  }
+  
+  .formcontrol{
+    margin-top: 3px;
+    width: 450px;
+  }
+  
+  .loginbtn{
+    margin-top: 12px;
+  }

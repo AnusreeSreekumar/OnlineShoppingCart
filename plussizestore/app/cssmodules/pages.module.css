@@ -1,0 +1,51 @@
+.pageContainer {
+    background: url('/backgrndimages/bkgrnd/bg2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero {
+    margin-left: 330px;
+    margin-top: 220px;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.websiteName {
+    font-size: 2rem;
+    color: rgb(158, 81, 93);
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.websiteName:hover {
+    font-weight: bold;
+    color: rgb(177, 104, 115)
+}
+
+.navLink {
+    color: rgb(192, 121, 121);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.navLink:hover {
+    font-weight: bold;
+    color: rgb(183, 110, 121)
+}
+
+.textend{
+    color: rgb(183, 110, 121);
+    margin: 0;
+  }

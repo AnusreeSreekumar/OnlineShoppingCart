@@ -1,65 +1,100 @@
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .logo {
   height: 40px; /* Adjust size */
   width: auto;
 }
 
 .website-name {
-  font-size: 1.5rem;
-  font-weight: normal;
-  font-family: 'Sofia', cursive;
-  font-style: italic;
-  color:rgb(0, 77, 64)
+  font-size: 2rem;
+  color:rgb(158, 81, 93);
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .website-name:hover{
   font-weight: bold;
-  color:rgb(3, 56, 47)
+  color:rgb(177, 104, 115)
 }
 
-.navbar-nav .nav-link {
-  font-size: 1rem;
-  padding: 8px 15px; /* Adjust spacing */
-}
 
-.nav-link{
-  color: rgb(192, 121, 121)
-}
 
-.nav-link:hover{
-  font-weight: bold;
-  color: rgb(183, 110, 121)
-}
-
-body{
-  background-color:rgba(214, 152, 131, 0.897)
+.text-end{
+  /* text-wrap: balance; */
+  color: rgb(183, 110, 121);
+  /* margin-left: 320px; */
 }
 
 .container{
-  border: 10px ridge;
-  /* border-width: 5px; */
   width: 1000px;
   height: 550px;
-  margin-top: 40px;
+  margin-top:290px;
 }
 
 .container h3{
   height: 50px;
-  background-color:#ee718e;
-  text-align: center;
+  margin-left: 130px;
   padding: 2px;
-  color:#FFF8E7;
+  color:rgb(183, 110, 121)
 }
 
-.form-inline{
-  align-self: center;
-}
-
-.form-inline label{
-  margin-top: 50px;
+.form-label{
+  color:rgb(183, 110, 121);
+  font-weight:800;
 }
 
 .form-control{
-  margin-top: 20px;
-  width: 550px;
+  margin-top: 3px;
+  width: 450px;
+}
+
+.loginbtn{
+  margin-top: 12px;
+}
+
+.search{
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid rgb(158, 81, 93);
+}
+
+.btn0{
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background-color: rgb(158, 81, 93);
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  margin-right: 70px;
+}
+
+.item-container{
+  margin-top: 50px;
+  background: url('/images/Items/banner.png')no-repeat;
+  margin-left:200px; 
+  background-size: contain;
+  height: 100vh;
+  width: 80%;
+}
+
+.sale-text{
+  margin-top: 200px;
+  position: absolute;
+}
+
+.card{
+  /* margin-top: 120px; */
+  margin-left: 20px;;
 }
