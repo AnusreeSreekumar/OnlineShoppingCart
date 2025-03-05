@@ -1,19 +1,21 @@
 .pageContainer{
     background: url('/backgrndimages/bkgrnd/Forms\ .jpg') no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
 }
 
 .container{
     width: 1000px;
     height: 550px;
-    margin-top:290px;
+    margin-top:190px;
   }
   
   .container h3{
     height: 50px;
-    margin-left: 130px;
+    margin-left: 190px;
     padding: 2px;
     color:rgb(183, 110, 121)
   }
@@ -24,10 +26,34 @@
   }
   
   .formcontrol{
-    margin-top: 3px;
-    width: 450px;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ffb6c1; 
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.6); 
+    outline: none;
+    font-size: 16px;
+    color: #5a5a5a;
+    transition: all 0.3s ease-in-out;
+    margin-left: 100px;
   }
   
   .loginbtn{
     margin-top: 12px;
+    margin-left: 190px;
+    width: 80px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:salmon;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight:900;
+  }
+
+  .loginbtn:hover{
+    background-color:rgb(150, 60, 50);
+    color:gray
   }

@@ -15,64 +15,92 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="background-image: url('../images/bkgrnd/bg3jpg'); background-size: cover; background-repeat:repeat;">
-    <nav class="navbar navbar-expand-lg">
+<body style="background-image: url('../images/bkgrnd/bg3.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+    <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <!-- Brand Logo -->
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="../images/Index/logo.png" alt="Logo" class="logo me-5">
-                <!-- Add margin between logo & text -->
-                <span class="website-name">Plus Size Store</span>
+                <img src="../images/Index/logo.png" alt="Logo" class="logo me-2" width="50">
+                <span class="website-name fw-bold">Plus Size Store</span>
             </a>
 
             <!-- Navbar Toggler (For Mobile View) -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <!-- Navbar Items -->
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                 <!-- Left-aligned Navigation Links -->
-                <div class="navbar-nav m-auto my-2 my-lg-0">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">Categories</a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Contact</a>
-                </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
 
                 <!-- Right-aligned Search Bar -->
-                <form class="d-flex">
-                    <input class="search px-2" type="search" placeholder="Search">
-                    <button class="btn0" type="submit">Search</button>
+                <form class="d-flex">   
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
 
-    <section>
-        <div class="item-container d-flex-row">
-            <div class="sale-text">
-                <h2 style="margin-left: 580px; font-weight: 600; color: green;">End of Season</h2>
-                <h2
-                    style="margin-top: 20px; margin-left: 580px; font-size: 100px; color: goldenrod; font-weight: bold;">
-                    SALE</h2>
-                <h3 style="margin-top: 20px; margin-left: 580px; font-weight: 600; color: green;">Flat 10-20%</h3>
-            </div>
+    <!-- Sale Section -->
+    <section class="container text-center mt-5">
+        <div class="sale-text">
+            <h2 class="text-success fw-semibold">End of Season</h2>
+            <h2 class="fw-bold text-warning display-1">SALE</h2>
+            <h3 class="text-success fw-semibold">Flat 10-20%</h3>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../images/Items/pic1.jpg" class="card-img-top" alt="image1">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-
-
     </section>
 
+    <!-- Featured Products Section -->
+    <section class="container mt-5">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div class="row">
+            <div class="col-md-3"><img src="" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Featured/f2.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Featured/f3.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Featured/f4.jpg" class="img-fluid rounded shadow"></div>
+        </div>
+    </section>
+
+    <!-- Anarkali Section -->
+    <section class="container mt-5">
+        <h2 class="text-center mb-4">Anarkali Collection</h2>
+        <div class="row">
+            <div class="col-md-3"><img src="../images/Anarkali/a1.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Anarkali/a2.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Anarkali/a3.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Anarkali/a4.jpg" class="img-fluid rounded shadow"></div>
+        </div>
+    </section>
+
+    <!-- Lehenga Section -->
+    <section class="container mt-5">
+        <h2 class="text-center mb-4">Lehenga Collection</h2>
+        <div class="row">
+            <div class="col-md-3"><img src="../images/Lehenga/l1.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Lehenga/l2.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Lehenga/l3.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Lehenga/l4.jpg" class="img-fluid rounded shadow"></div>
+        </div>
+    </section>
+
+    <!-- Sarees Section -->
+    <section class="container mt-5 mb-5">
+        <h2 class="text-center mb-4">Saree Collection</h2>
+        <div class="row">
+            <div class="col-md-3"><img src="../images/Sarees/s1.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Sarees/s2.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Sarees/s3.jpg" class="img-fluid rounded shadow"></div>
+            <div class="col-md-3"><img src="../images/Sarees/s4.jpg" class="img-fluid rounded shadow"></div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
